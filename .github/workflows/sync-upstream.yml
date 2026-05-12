@@ -29,3 +29,10 @@ jobs:
           git fetch upstream master
           git merge --ff-only upstream/master
           git push origin master
+
+      - name: Rebase windows/nanpuhaha onto master
+        run: |
+          git fetch origin windows/nanpuhaha
+          git checkout windows/nanpuhaha
+          git rebase origin/master
+          git push origin windows/nanpuhaha --force-with-lease
