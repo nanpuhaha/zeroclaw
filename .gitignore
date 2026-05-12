@@ -87,3 +87,7 @@ web/src/lib/api-generated.ts
 
 # Generated OpenAPI spec (transient handoff for openapi-typescript)
 target/openapi.json
+
+# Personal AI tooling session state
+.bkit/
+.gemini/
