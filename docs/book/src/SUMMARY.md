@@ -14,7 +14,6 @@
 - [Linux](./setup/linux.md)
 - [macOS](./setup/macos.md)
 - [Windows](./setup/windows.md)
-- [Windows Auto-Start (hidden daemon)](./setup/windows-autostart.md)
 - [Docker & containers](./setup/container.md)
 - [Service management](./setup/service.md)
 
